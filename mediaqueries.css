@@ -1,0 +1,100 @@
+@media screen and (max-width:1400px) {
+    #profile{
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+    .abo-cont{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:1200px){
+    #desktop-nav{
+        display: none;
+    }
+    #hamburger-nav{
+        display: flex;
+
+    }
+    #experience,.exp-info-cont{
+        margin-top: 2rem;
+    }
+    #profile,.sec-cont{
+        display: block;
+    }
+    .arrow{
+        display: none;
+    }
+    section,.sec-cont{
+        height: fit-content;
+    }
+    section{
+        margin: 0 5%;
+    }
+    .sec_pic-cont{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .abo-cont{
+        margin-top: 0;
+    }
+}
+@media screen and (max-width:600px) {
+    #contact,footer{
+        height: 40vw;
+    }
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+    }
+    article{
+        font-size: 1rem;
+    }
+    footer{
+        height: fit-content;
+        margin-bottom: 1rem;
+    }
+    .abo-cont,.contact-info-upp-cont,.btn-cont{
+        flex-wrap: wrap;
+    }
+    .conta-info-cont{
+        margin: 0;
+    }
+    .conta-info-cont p,.nav-links li a{
+        font-size: 1rem;
+    }
+    .exp-subt{
+        font-size: 1.25rem;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    .nav-links{
+        margin-bottom: 1.5rem;
+        flex-direction: column;
+        gap: 0.1rem;
+        text-align: center;
+    }
+    .sec_pic-cont{
+        width: auto;
+        height: 46vw;
+        justify-content: center;
+    }
+    .sec_txt_p2{
+        font-size: 1.25rem;
+    }
+    .title{
+        font-size: 2rem;
+    }
+    .txt-cont{
+        text-align: justify;
+    }
+    .email-icon{
+        height: 2.2rem;
+        margin-bottom: 0.4rem;
+    }
+    .contact-icon{
+        margin-left: 0.6rem;
+        margin-bottom: 0.4rem;
+    }
+}
